@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;  /* Solid black background */
+    color: #fff;  /* White text for contrast */
+}
+
+header {
+    background: linear-gradient(135deg, #000, #4B0082); /* Fade from black to deep purple */
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #9400D3; /* Bright purple on hover */
+}
+
+section {
+    padding: 40px;
+    margin: 20px 5%;
+    background-color: #111; /* Very dark gray background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+section h2 {
+    color: #8A2BE2; /* Lighter purple for headers */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #4B0082, #000); /* Fade from deep purple to black */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+a {
+    color: #9400D3; /* Bright purple for links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #8A2BE2; /* Lighter purple on hover */
+}
